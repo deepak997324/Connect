@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>login portal</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        #sidebar{
+            display: block;
+            position: fixed;
+            width:240px;
+            min-height:100vh;
+            background-color: #0D47A1;
+            z-index: 1000;
+        }
+        nav{
+            margin-left: 240px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-toggleable-md navbar-dark bg-primary">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <strong>Connect</strong>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="btn">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="official">Official</a>
+                </li>
+                <li class="nav-item dropdown btn-group" >
+                    <a class="nav-link dropdown-toggle" id="connect" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect</a>
+                    <div class="dropdown-menu dropdown" aria-labelledby="connect" id="dp" style="width: 200px;" >
+                        <a class="dropdown-item">Buy and sell</a>
+                        <a class="dropdown-item">lost and found</a>
+                        <a class="dropdown-item">Drop message</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown btn-group" >
+                    <a class="nav-link dropdown-toggle" id="club" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect</a>
+                    <div class="dropdown-menu dropdown" aria-labelledby="club" id="cb" style="width: 200px;" >
+                        <a class="dropdown-item">NJACK</a>
+                        <a class="dropdown-item">Sparconics</a>
+                        <a class="dropdown-item">civil</a>
+                        <a class="dropdown-item">mechi</a>
+                        <a class="dropdown-item">chemical</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown btn-group" >
+                    <a class="nav-link dropdown-toggle" id="events" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect</a>
+                    <div class="dropdown-menu dropdown" aria-labelledby="events" id="evt" style="width: 200px;" >
+                        <a class="dropdown-item">Anwesha</a>
+                        <a class="dropdown-item">Celesta</a>
+                        <a class="dropdown-item">Janamstami</a>
+                        <a class="dropdown-item">Nebula</a>
+                        <a class="dropdown-item">Reverberense</a>
+                        <a class="dropdown-item">other</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown btn-group" >
+                    <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Notification</a>
+                    <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1" id="drp" style="width: 300px;max-height: 500px" >
+                        <a class="dropdown-item">Action</a>
+                        <a class="dropdown-item">Another action</a>
+                        <a class="dropdown-item">Something else here</a>
+                    </div>
+                </li>
+
+            </ul>
+            <form class="form-inline waves-effect waves-light">
+                <input class="form-control" type="text" placeholder="Search">
+            </form>
+        </div>
+    </div>
+</nav>
+<div id="sidebar">
+
+        <div style="font-size: 30px;height: 100px;background-color: #00b0ff">IIT-P Connect</div>
+        <div>
+            <a class="btn btn-primary" data-toggle="collapse" href="#cont" aria-expanded="false" aria-controls="cont">
+            Connect
+        </a>
+        </div>
+        <div class="collapse" id="cont">
+            <li>buy and sell</li>
+            <li>lost and found</li>
+            <li>drop a msg</li>
+        </div>
+    <div>
+        <a class="btn btn-primary" data-toggle="collapse" href="#discipline_clubs" aria-expanded="false" aria-controls="discipline_clubs">
+            discipline clubs
+        </a>
+    </div>
+    <div class="collapse" id="discipline_clubs">
+        <li>NJACK</li>
+        <li>CIVIL</li>
+        <li>sparconics</li>
+        <li>machi</li>
+        <li>chemical</li>
+        <li>Eclub</li>
+    </div>
+    <div>
+        <a class="btn btn-primary" data-toggle="collapse" href="#Sports_clubs" aria-expanded="false" aria-controls="Sports_club">
+            discipline clubs
+        </a>
+    </div>
+    <div class="collapse" id="Sports_clubs">
+        <li>Gymkhana</li>
+        <li>Football</li>
+        <li>Cricket</li>
+        <li>bollyball</li>
+        <li>basketball</li>
+        <li>long tennis</li>
+        <li>table tennis</li>
+        <li>Gaming</li>
+    </div>
+    <div>
+        <a class="btn btn-primary" data-toggle="collapse" href="#cult_events" aria-expanded="false" aria-controls="cult_events">
+            cult Events
+        </a>
+    </div>
+    <div class="collapse" id="cult_events">
+        <li>Anwesha</li>
+        <li>celesta</li>
+        <li>reverberance</li>
+        <li>Nebula</li>
+        <li>Janamastami</li>
+    </div>
+
+
+
+
+</div>
+<div class="container">
+
+</div>
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
